@@ -6,7 +6,14 @@ ch = input("Enter any of these char for specific operation +,-,*,/: ")
 
 result = 0
 if ch == '+':
+
     result = num1 + num2
+elif ch == '-':
+    result = num1 - num2
+elif ch == '*':
+    result = num1 * num2
+elif ch == '/':
+    result = num1 / num2
 else:
     print("Input character is not recognized!")
 
